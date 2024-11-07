@@ -1,0 +1,84 @@
+a[target="_top"]{
+    background-color: yellow;
+}
+
+a[target="_blank"]{
+    background-color: pink;
+}
+
+a[target="_parent"]{
+    background-color: bisque;
+}
+
+.class1 .class2{
+    background-color: aqua;
+
+}
+
+.one .three{
+    background-color: azure;
+    text-align: center;
+    border: 3px black dashed;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.one>.two{
+    background-color: brown;
+}
+
+div[data-colour]{
+    background-color: red;
+}
+
+div[data-colour=red]{
+    background-color: pink;
+}
+
+[class*="foo"]{
+    color:blue
+}
+
+[class~="color-red"] {
+    color: aqua;
+}
+
+[class^="foo-"]{
+    border: 2px yellow solid;
+}
+
+[class$="file"]{
+    color: brown;
+}
+/* div span{
+    font-size: 45px;
+} */
+
+/* div>span{
+    font-size: 45px;
+    color: aqua;
+} */
+
+a~span{
+    background-color: blue;
+}
+
+/* p+ p{
+    color: red;
+} */
+
+p ~ p{
+    color: red;
+}
+
+.cool{
+    background-color: pink;
+}
+.warm{
+    background-color: yellow;
+}
+.cool.warm{
+    background-color: orangered;
+}
+input-in-range{
+    border: 1px solid blue;
+}
